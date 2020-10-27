@@ -1,0 +1,22 @@
+:root {
+    --primary-color: #ffffff;
+    --secondary-color: rgba(255, 255, 255, 0.836);
+    --font-color: #464545;
+    --secondary-font-color: #616161;
+}
+
+.theme-provider__container {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    color: var(--font-color);
+    background-color: var(--primary-color);
+}
+
+[data-theme = 'dark'] {
+    --primary-color: rgba(0,0,0,0.75);
+    --secondary-color: rgb(94, 93, 93);
+    --font-color: #e9e9e9;
+    --secondary-font-color: #797979;
+
+}

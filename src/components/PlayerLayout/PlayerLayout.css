@@ -1,0 +1,27 @@
+.player_layout__container {
+    width: 100%;
+    height: calc(100% - 3rem);
+    display: grid;
+    padding: 0.5rem;
+    grid-template-columns: 250px 20px 1fr;
+    grid-template-rows: 250px 20px 75px 20px 1fr;
+    grid-template-areas: 
+        'player . playlist'
+        '. . playlist'
+        'controls . playlist'
+        '. . playlist'
+        '. . playlist';
+}
+
+@media only screen and (max-width: 600px) {
+
+    .player_layout__container {
+        grid-template-rows: 1fr 10px 75px 10px 1fr;
+        grid-template-areas: 
+            'player player player'
+            '. . .'
+            'controls controls controls'
+            '. . .'
+            'playlist playlist playlist';
+    }
+}

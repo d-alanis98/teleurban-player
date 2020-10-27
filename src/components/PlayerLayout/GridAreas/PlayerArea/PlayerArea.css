@@ -1,0 +1,5 @@
+.player_area__grid-area {
+    grid-area: player;
+    width: 100%;
+    height: 100%;
+}
