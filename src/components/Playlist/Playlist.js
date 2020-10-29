@@ -28,11 +28,12 @@ const Playlist = ({
         <PlaylistArea>
             <ul>
                 {
-                    playlist.map(({ id, name, thumbnail }, index) => (
+                    playlist.map(({ id, name, artist, thumbnail }, index) => (
                         <PlaylistItem 
                             key = { id }
                             name = { name }
                             index = { index }
+                            artist = { artist }
                             thumbnail = { thumbnail}
                             setItemToPlay = { setItemToPlay }
                             currentlyPlaying = { currentItemIndex === index }

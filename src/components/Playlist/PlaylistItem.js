@@ -5,6 +5,7 @@ import './PlaylistItem.css';
 const PlaylistItem = ({ 
     name, 
     index, 
+    artist,
     thumbnail, 
     setItemToPlay,
     currentlyPlaying 
@@ -21,6 +22,8 @@ const PlaylistItem = ({
             />
             <div className='playlist__song-name'>
                 { name }
+                <small>{ artist }</small>
+
             </div>
         </li>
     );

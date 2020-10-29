@@ -7,16 +7,17 @@ export const LIGHT_THEME   = 'light';
 
 //THEME HOOK
 export let useTheme = () => {
-    const [appliedTheme, setAppliedTheme] = useState(LIGHT_THEME);
+    const [appliedTheme, setAppliedTheme] = useState(DARK_THEME);
 
     useEffect(() => {
-        if(
-            localStorage.getItem(LOCAL_STORAGE_KEY) && 
-            localStorage.getItem(LOCAL_STORAGE_KEY) === DARK_THEME
-        ) 
+        if(!localStorage.getItem(LOCAL_STORAGE_KEY))
+            return;
+
+        if(localStorage.getItem(LOCAL_STORAGE_KEY) === DARK_THEME) 
             setAppliedTheme(DARK_THEME);
 
         else setAppliedTheme(LIGHT_THEME);
+
     }, []);
 
     useEffect(() => {
@@ -32,7 +33,7 @@ export let useTheme = () => {
     
     const  setLightTheme = () => {
         document.body.removeAttribute('data-theme');
-        localStorage.clear();
+        localStorage.setItem('theme', LIGHT_THEME);
     }
 
     const toggleCurrentTheme = () => {

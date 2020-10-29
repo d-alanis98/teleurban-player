@@ -8,6 +8,7 @@
     align-items: center;
     justify-content: space-between;
     cursor: pointer;
+    flex-wrap: wrap;
 }
 
 .playlist__item img {
@@ -15,6 +16,7 @@
     width: 60px;
     border-radius: 0.5rem;
     cursor: pointer;
+    margin-right: 0.5rem;
 }
 
 .playlist__item img:hover {
@@ -33,6 +35,9 @@
 }
 
 .playlist__song-name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     flex-grow: 1;
     text-align: center;
 }

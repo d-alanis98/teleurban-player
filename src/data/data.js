@@ -1,77 +1,26 @@
 export let videoData = [
     {
         id: '1',
-        name: 'Video de prueba 1',
-        uri: 'https://cdn.videvo.net/videvo_files/video/free/2014-12/small_watermarked/Raindrops_Videvo_preview.mp4',
-        thumbnail: 'https://learnenglishteens.britishcouncil.org/sites/teens/files/styles/article/public/field/image/rs930_135120665-low.jpg?itok=g5LI5W4C'
-    },
-    {
-        id: '2',
-        name: 'Video de prueba 1',
-        uri: 'https://cdn.videvo.net/videvo_files/video/free/2014-12/small_watermarked/Raindrops_Videvo_preview.mp4',
-        thumbnail: 'https://learnenglishteens.britishcouncil.org/sites/teens/files/styles/article/public/field/image/rs930_135120665-low.jpg?itok=g5LI5W4C'
-    },
-    {
-        id: '3',
-        name: 'Video de prueba 1',
-        uri: 'https://cdn.videvo.net/videvo_files/video/free/2014-12/small_watermarked/Raindrops_Videvo_preview.mp4',
-        thumbnail: 'https://learnenglishteens.britishcouncil.org/sites/teens/files/styles/article/public/field/image/rs930_135120665-low.jpg?itok=g5LI5W4C'
-    },
-    {
-        id: '4',
-        name: 'Video de prueba 1',
-        uri: 'https://cdn.videvo.net/videvo_files/video/free/2014-12/small_watermarked/Raindrops_Videvo_preview.mp4',
-        thumbnail: 'https://learnenglishteens.britishcouncil.org/sites/teens/files/styles/article/public/field/image/rs930_135120665-low.jpg?itok=g5LI5W4C'
-    },
-    {
-        id: '5',
-        name: 'Video de prueba 1',
-        uri: 'https://cdn.videvo.net/videvo_files/video/free/2014-12/small_watermarked/Raindrops_Videvo_preview.mp4',
-        thumbnail: 'https://learnenglishteens.britishcouncil.org/sites/teens/files/styles/article/public/field/image/rs930_135120665-low.jpg?itok=g5LI5W4C'
-    },
-    {
-        id: '6',
-        name: 'Video de prueba 1',
-        uri: 'https://cdn.videvo.net/videvo_files/video/free/2014-12/small_watermarked/Raindrops_Videvo_preview.mp4',
-        thumbnail: 'https://learnenglishteens.britishcouncil.org/sites/teens/files/styles/article/public/field/image/rs930_135120665-low.jpg?itok=g5LI5W4C'
-    },
-    {
-        id: '7',
-        name: 'Video de prueba 1',
-        uri: 'https://cdn.videvo.net/videvo_files/video/free/2014-12/small_watermarked/Raindrops_Videvo_preview.mp4',
-        thumbnail: 'https://learnenglishteens.britishcouncil.org/sites/teens/files/styles/article/public/field/image/rs930_135120665-low.jpg?itok=g5LI5W4C'
-    },
-    {
-        id: '8',
-        name: 'Video de prueba 1',
-        uri: 'https://cdn.videvo.net/videvo_files/video/free/2014-12/small_watermarked/Raindrops_Videvo_preview.mp4',
-        thumbnail: 'https://learnenglishteens.britishcouncil.org/sites/teens/files/styles/article/public/field/image/rs930_135120665-low.jpg?itok=g5LI5W4C'
-    },
-    {
-        id: '9',
-        name: 'Video de prueba 1',
-        uri: 'https://cdn.videvo.net/videvo_files/video/free/2014-12/small_watermarked/Raindrops_Videvo_preview.mp4',
-        thumbnail: 'https://learnenglishteens.britishcouncil.org/sites/teens/files/styles/article/public/field/image/rs930_135120665-low.jpg?itok=g5LI5W4C'
+        name: 'MMFIV Monterrey',
+        artist: 'Dying Fetus',
+        uri: 'assets/mov.mp4',
+        thumbnail: 'assets/dying-fetus-live.png'
     }
 ]
 
 export let audioData = [
     {
         id: '1',
-        name: 'Audio de prueba 1',
-        uri: 'assets/Silence-calls-the-storm.mp4',
-        thumbnail: 'https://learnenglishteens.britishcouncil.org/sites/teens/files/styles/article/public/field/image/rs930_135120665-low.jpg?itok=g5LI5W4C'
+        name: 'Silence calls the Storm',
+        artist: 'Quo Vadis',
+        uri: 'assets/Silence-calls-the-storm.mp3',
+        thumbnail: 'https://images-na.ssl-images-amazon.com/images/I/51S%2BkJrRD-L._SX355_.jpg'
     },
     {
         id: '2',
-        name: 'Audio de prueba 1',
-        uri: 'assets/Silence-calls-the-storm.mp4',
-        thumbnail: 'https://learnenglishteens.britishcouncil.org/sites/teens/files/styles/article/public/field/image/rs930_135120665-low.jpg?itok=g5LI5W4C'
-    },
-    {
-        id: '3',
-        name: 'Audio de prueba 1',
-        uri: 'assets/Silence-calls-the-storm.mp4',
-        thumbnail: 'https://learnenglishteens.britishcouncil.org/sites/teens/files/styles/article/public/field/image/rs930_135120665-low.jpg?itok=g5LI5W4C'
+        name: 'Akroasis',
+        artist: 'Obscura',
+        uri: 'assets/akroasis.mp3',
+        thumbnail: 'https://upload.wikimedia.org/wikipedia/en/7/7a/Obscura_-_Akr%C3%B3asis_Album_Cover.jpg'
     },
 ]

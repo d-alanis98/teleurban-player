@@ -87,7 +87,10 @@ const App = () => {
                 loading  = { loading }
             >
                 <PlayerThumbnail 
+                    mediaType = { mediaType }
                     currentItem = { currentItem }
+                    currentlyPlaying = { currentlyPlaying }
+                    goToNextPlaylistItem = { goToNextPlaylistItem }
                 />
                 <PlayerControls 
                     mediaType = { mediaType }

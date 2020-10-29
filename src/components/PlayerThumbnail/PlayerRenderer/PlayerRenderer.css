@@ -1,0 +1,14 @@
+.player_renderer__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.player_renderer__container video,
+.player_renderer__container img
+{
+    max-height: 100%;
+    max-width: 100%;
+}
