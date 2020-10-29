@@ -1,0 +1,38 @@
+.playlist__item {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    padding: 0.5rem;
+    background-color: var(--primary-color-light);
+    border-radius: 0.75rem;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.playlist__item img {
+    height: 60px;
+    width: 60px;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.playlist__item img:hover {
+    opacity: 0.85;
+}
+
+.playlist__item:hover {
+    transform: scale(1.01);
+    transition: transform 200ms ease-in-out;
+}
+
+.playlist__item--active {
+    transform: scale(1.005);
+    color: var(--active-color);
+    box-shadow: 2px 2px 5px var(--primary-color-medium);
+}
+
+.playlist__song-name {
+    flex-grow: 1;
+    text-align: center;
+}

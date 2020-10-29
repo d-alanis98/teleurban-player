@@ -1,0 +1,21 @@
+.circular-icon__container {
+    width: 2.75rem;
+    height: 2.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.15rem;
+    border-radius: 50%;
+    background-color: var(--primary-color-medium);
+    cursor: pointer;
+}
+
+.circular-icon__container:hover {
+    opacity: 0.75;
+}
+
+.circular-icon__icon {
+    size: 2rem;
+    color: var(--font-color);
+    margin: 0;
+}

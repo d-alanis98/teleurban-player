@@ -10,7 +10,6 @@ export let useTheme = () => {
     const [appliedTheme, setAppliedTheme] = useState(LIGHT_THEME);
 
     useEffect(() => {
-        console.log('Theme hook mounted')
         if(
             localStorage.getItem(LOCAL_STORAGE_KEY) && 
             localStorage.getItem(LOCAL_STORAGE_KEY) === DARK_THEME
